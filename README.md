@@ -1,1 +1,1 @@
-# SnakeGameAtmega32personal
+# CalculatorAtmega32personal
