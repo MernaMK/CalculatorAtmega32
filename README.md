@@ -17,6 +17,7 @@ Debounce Mechanism: Prevents false key presses
 User-Friendly Interface: Clear display functionality with 'c' key
 
 🔧 Configuration
+
 Keypad Configuration (KEYPAD_CFG.h)
 Port: PORTC (default)
 
@@ -46,7 +47,7 @@ The system waits for keypad input
 
 Numbers are stored in parameter arrays
 
-Operators are stored separately
+Operators are stored in operators array
 
 'c' clears the current operation
 
@@ -68,7 +69,9 @@ Division by Zero: Displays "ER: DIV BY 0"
 
 Insufficient Parameters: Displays "ER: INSUF PARAs"
 
-LCD Overflow: Automatically clears when full
+Buffer Overflow: Prevent entering numbers more than 10 digits or more than 9 operations
+
+LCD Overflow: Automatically shifts the screen when full
 
 📝 Usage Instructions
 Power ON: System displays "WELCOME"
