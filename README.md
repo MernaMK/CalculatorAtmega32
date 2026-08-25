@@ -3,7 +3,7 @@
 📋 Overview
 This is an embedded calculator system implemented in C for AVR microcontrollers. The system utilizes a 4x4 matrix keypad for input and an LCD display for output, providing a functional calculator with basic arithmetic operations.
 
-#🎯 Features
+🎯 Features
 
 Basic Arithmetic Operations: Addition, subtraction, multiplication, and division
 
@@ -17,7 +17,7 @@ Debounce Mechanism: Prevents false key presses
 
 User-Friendly Interface: Clear display functionality with 'c' key
 
-#🔧 Configuration
+🔧 Configuration
 
 Keypad Configuration (KEYPAD_CFG.h)
 Port: PORTC (default)
